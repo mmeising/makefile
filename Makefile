@@ -6,7 +6,7 @@
 #    By: mmeising <mmeising@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/08 16:08:31 by mmeising          #+#    #+#              #
-#    Updated: 2023/02/08 19:52:24 by mmeising         ###   ########.fr        #
+#    Updated: 2023/03/14 12:31:30 by mmeising         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ VPATH := ./src/
 CXXFLAGS := -Wall -Wextra -Werror -std=c++98
 INC := -I ./include
 
-NAME := ./containers
+NAME := ./projectname
 
 SRC := main
 SRC := $(SRC:%=%.cpp)
